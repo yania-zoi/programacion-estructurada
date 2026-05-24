@@ -1,7 +1,7 @@
 # programacion-estructurada
-Nombre del estudiante: Yania Zoí Sánchez Rodríguez
-Código: 325019725
-Sección: D04
+Nombre del estudiante: Yania Zoí Sánchez Rodríguez |
+Código: 325019725 |
+Sección: D04 |
 Profesor: Jorge Ernesto López Arce Delgado
 
 ## Descripción
