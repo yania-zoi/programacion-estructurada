@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main() {
+    FILE *archivo;
+    char nombre[50];
+    int tablero[5][5];
+
+    archivo = fopen("tablero.txt", "w");
+
+    printf("Ingresa tu nombre: ");
+    scanf("%s", nombre);
+    fprintf(archivo, "%s\n", nombre);
+
+    for(int i = 0; i < 5; i++){
+    for(int j = 0; j < 5; j++){
+    tablero[i][j] = '~';
+    }
+    }
+    tablero[1][2] = 'B';
+    tablero[3][4] = 'x';
+    tablero[2][1] = 'O';
+
+    for(int i = 0; i < 5; i++){
+    for( int j = 0; j < 5; j++){
+
+        fprintf(archivo,"%c", tablero[i][j]);
+
+    }
+
+    fprintf(archivo, "\n");
+    }
+    fprintf(archivo, "%s\n", nombre);
+
+    fclose(archivo);
+
+    archivo = fopen("tablero.txt", "w");
+    fscanf(archivo, "%s", nombre);
+    printf("El nombre guardado es: %s\n", nombre);
+    fclose(archivo);
+
+    return 0;
+}
