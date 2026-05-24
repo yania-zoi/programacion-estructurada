@@ -1,7 +1,7 @@
 # programacion-estructurada
-Nombre del estudiante: Yania Zoí Sánchez Rodríguez //
-Código: 325019725 //
-Sección: V0716 //
+Nombre del estudiante: Yania Zoí Sánchez Rodríguez
+Código: 325019725
+Sección: D04
 Profesor: Jorge Ernesto López Arce Delgado
 
 ## Descripción
@@ -19,3 +19,4 @@ Programación Estructurada en lenguaje C.
 - Funciones
 - Punteros
 - Archivos
+- Memoria dinámica
